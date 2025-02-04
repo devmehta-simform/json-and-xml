@@ -1,0 +1,19 @@
+{
+  "productsList": [
+    {
+      "name": "product1",
+      "price": 12,
+      "description": "this is product1"
+    },
+    {
+      "name": "product2",
+      "price": 14,
+      "description": "this is product2"
+    },
+    {
+      "name": "product1",
+      "price": 16,
+      "description": "this is product3"
+    }
+  ]
+}
