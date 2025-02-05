@@ -12,10 +12,15 @@
                             <xs:element name="description" type="xs:string" minOccurs="0"
                                 maxOccurs="1" />
                         </xs:sequence>
+                        <xs:attribute name="id" type="xs:positiveInteger" use="required" />
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+        <xs:unique name="id_unique">
+            <xs:selector xpath="product"></xs:selector>
+            <xs:field xpath="@id"></xs:field>
+        </xs:unique>
         <xs:unique name="name_unique">
             <xs:selector xpath="product/name" />
             <xs:field xpath="." />
