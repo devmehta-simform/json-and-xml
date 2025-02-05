@@ -13,6 +13,5 @@
     <product>
         <name>product3</name>
         <price>16</price>
-        <description>this is product3</description>
     </product>
 </productsList>
