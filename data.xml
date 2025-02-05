@@ -21,5 +21,6 @@
     <product id="5">
         <name>product5</name>
         <price>20</price>
+        <description>this is product5</description>
     </product>
 </productsList>
