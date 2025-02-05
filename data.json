@@ -3,17 +3,32 @@
     {
       "name": "product1",
       "price": 12,
-      "description": "this is product1"
+      "description": "this is product1",
+      "imgLink": ["img11", "img12"],
+      "mfgDetails": [
+        {
+          "mfgName": "mfg1",
+          "mfgAddress": "mfg1 mfgAddress1",
+          "mfgContactDetails": ["mfgContactDetails1", "mfgContactDetails2"]
+        },
+        {
+          "mfgName": "mfg2",
+          "mfgAddress": "mfg2 mfgAddress2",
+          "mfgContactDetails": ["mfgContactDetails1", "mfgContactDetails2"]
+        }
+      ]
     },
     {
       "name": "product2",
       "price": 14,
-      "description": "this is product2"
+      "description": "this is product2",
+      "imgLink": ["img21", "img22"]
     },
     {
       "name": "product1",
       "price": 16,
-      "description": "this is product3"
+      "description": "this is product3",
+      "imgLink": ["img31", "img32"]
     }
   ]
 }
